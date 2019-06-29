@@ -1,0 +1,30 @@
+*{
+    margin:0;padding:0;
+}
+.head_width{
+    width:100%;
+}
+
+.head_background{
+    background-color:#fff;
+}
+.my_relative{
+    position:relative;
+}
+.my_absolute{
+    position:absolute;
+    
+}
+.head_2_width_height{
+    width: 1200px;
+    height:60px;
+}
+.d-flex li a{
+font-size:14p;
+color:#000;
+}
+li:hover{
+        border-bottom:2px red solid;
+       
+}
+ul li a:hover{ text-decoration: none;}
