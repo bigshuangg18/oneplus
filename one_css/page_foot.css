@@ -1,0 +1,159 @@
+@media screen and (min-width:992px){
+   
+    *{
+        margin:0px;
+        padding:0px
+    }
+    ul{
+        list-style:none
+    }
+     div.footer-top{
+         width:80%;
+         margin:0 auto ;
+     }
+     div.footer-nav{
+         width:100%;
+         margin:0 auto
+     }
+     div.footer-top>div.footer-nav>dl{
+            width:20%;
+            font-size:16px;
+            
+     }
+     div.footer-top>div.footer-nav>dl>dd>ul>li>a{
+        text-decoration: none;
+        color:#828282;
+        font-size:14px;
+     }
+     div.footer-top>div.footer-nav>dl>dd>ul>li{
+         padding-top:8px;
+         padding-bottom: 8px; 
+         
+     }
+     div.footer-top>div.footer-nav>dl>dd>ul{
+         list-style: none;
+         padding-left:0px;
+     }
+     div.footer-top>div.footer-nav>dl>dd>ul>li>a:hover{
+         color:#000;
+     }
+     div.footer-top>div.footer-nav>dl>dt{
+        margin-bottom: 18px;  
+        /* font-weight: normal; */
+        font-family: MYingHei W5 !important;
+     }
+     .footer-nav{
+         padding-top:20px;
+     }
+     .footer-top{
+         padding-top: 20px !important;
+     }
+     .footer-nav>dl>div>a{
+         text-decoration: none;
+     }
+     .footer-nav>dl>div>a:nth-child(2){
+         color:#0099cc
+     }
+     .footer-nav>dl>div>p{
+         color:#999999;
+         font-size:12px;
+     }
+     .footer-nav>dl>div>button{
+         margin-top:10px;
+         margin-bottom: 10px;
+         border:1px solid #000;
+         width:130px;
+         height:41px;
+         background:#fff;
+         transition: all 
+     }
+     .footer-nav>dl>div>button:hover{
+         background:#000;
+         color:#fff
+         
+     }
+     .div.footer-top>div.footer-nav>dl>div>span:nth-child(2){
+        color:red;   
+     }
+     .xb_img{
+         float: right;
+     }
+     .xb_img>a{
+         text-decoration: none;
+     }
+     .xb_img>a:first-child{
+        margin: 10px;
+     }
+     
+
+
+     /* 下边是footer-bottom */
+     .footer-bottom{
+         width:100%;   
+     }
+     .footer-bottom-text{
+         margin:0 auto;
+         width:80%;
+     }
+     .footer-bottom>.footer-bottom-text>.contact{
+         border-bottom:1px solid #E2E2E2;
+         padding-bottom:15px ;
+         margin-bottom: 20px;
+     }
+     .footer-bottom>.footer-bottom-text>.contact>div:first-child{
+         font-weight: 700
+    }
+    .footer-bottom>.footer-bottom-text>.contact>div:last-child{
+        font-size: 12px;
+    }
+    .footer-bottom>.footer-bottom-text>.contact>div a{
+        text-decoration: none;
+        color:#0099cc
+    }
+    .footer-bottom-text>.footer-tail>.footer-row>.row-left>p{
+        font-size: 12px;
+        color:#999999
+    }
+    .footer-bottom-text>.footer-tail>.footer-row>.row-left>a{
+        font-size:12px;
+        text-decoration: none;
+        color:#10181F
+
+    }
+    .footer-bottom-text>.footer-tail>.footer-row>.row-right ul{
+         display: flex; 
+         
+             
+    }
+    .footer-bottom-text>.footer-tail>.footer-row>.row-right ul>li>a{
+        text-decoration: none;
+        font-size: 12px;
+        color:#10181F;
+        line-height:16px;
+    }
+    .footer-bottom-text>.footer-tail>.footer-row>.row-right ul>li{
+       display: inline-block; padding-top:0px;
+        padding-bottom: 0px;
+        padding-left:15px;
+        padding-right: 15px;
+        /* 
+            这没解决 边框的高度
+        */
+       
+          
+    }
+    .footer-bottom-text>.footer-tail>.footer-row>.row-right ul>li:not(:first-child){
+        border-left:1px solid #999999;
+    }
+    .footer-bottom-text>.footer-tail>.footer-row>.row-right>div:last-child>img{
+            width:83px;
+    }
+    .footer-bottom-text>.footer-tail>.footer-row>.row-right>div:last-child>img:first-child{
+            margin-right:20px;
+    }
+    .footer-bottom-text>.footer-tail>.footer-row>.row-right>div:last-child{
+        margin-top:20px;
+    }
+
+    
+}

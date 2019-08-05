@@ -1,30 +1,46 @@
 *{
     margin:0;padding:0;
-}
-.head_width{
-    width:100%;
-}
-
-.head_background{
-    background-color:#fff;
+    text- :none !important;
 }
 .my_relative{
     position:relative;
 }
 .my_absolute{
     position:absolute;
-    
 }
-.head_2_width_height{
-    width: 1200px;
+.icon-icon-test40:before{
+    font-size:40px;
+}
+.icon-icon-test34,.icon-icon-test9,.icon-icon-test11{
+    font-size:27px;
+}
+
+.zhong_kuan{
+    margin-top:18px; 
+    width:700px;
+
+}
+.da_zhong{
+    width:1200px;
     height:60px;
 }
-.d-flex li a{
-font-size:14p;
-color:#000;
+.juzhong{
+    margin:0 auto;
 }
-li:hover{
-        border-bottom:2px red solid;
-       
+.t_margin{
+ top:0px !important;
 }
-ul li a:hover{ text-decoration: none;}
+.size_font{
+    margin-top: 12px;
+}
+
+.qxhx{
+  text-decoration:none !important;
+}
+.font_color{
+    color:#000;
+}
+/* div>div.da_zhong>div>ul>li:hover{
+    border-bottom:#eb0028  solid 2px;
+    padding-bottom:1px; 
+} */
