@@ -1,6 +1,7 @@
 *{
     margin:0;padding:0;
-    text- :none !important;
+    text-decoration :none !important;
+    font-family: 'Courier New', Courier, monospace;
 }
 .my_relative{
     position:relative;
@@ -18,7 +19,9 @@
 .zhong_kuan{
     margin-top:18px; 
     width:700px;
-
+    padding-left:50px;
+    padding-right:50px;  
+    font-weight: 900;
 }
 .da_zhong{
     width:1200px;
@@ -40,7 +43,44 @@
 .font_color{
     color:#000;
 }
-/* div>div.da_zhong>div>ul>li:hover{
-    border-bottom:#eb0028  solid 2px;
-    padding-bottom:1px; 
-} */
+#d1>img{
+    width: 32px;
+    height: 32px;
+    margin-top:13px;
+}
+.user_hover{
+    width:290px;
+    height:290px;
+    background:#fff;
+    border:1px solid #000;
+    position: absolute;
+    top:61px;
+    right:325px;
+}
+.head_tou{
+    position: relative;
+}
+.user_hover>div{
+    width: 85%;
+    margin:0 auto;
+}
+.user_hover>div>ul{
+    list-style: none;
+    /* margin-left:15px; */
+}
+.user_hover>div a{
+    color:#828282;  
+}
+.user_hover>div>ul>li+li{
+    border-top:1px solid rgb(143, 140, 140);
+}
+.user_hover>div li{
+    padding-top:13px;
+    margin-bottom:13px;
+}
+.user_hover>div li:first-child{
+    margin-top:25px; 
+}
+.user_hover>div li:last-child{
+    padding-top:50px;
+}

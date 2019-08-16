@@ -1,0 +1,418 @@
+@media screen and (min-width:992px){
+    *{
+        text-decoration: none;
+        margin: 0px;
+        padding:0px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #one-one{
+        background-image:url("../www.oneplus.com/www.oneplus.com/images/151bfc961009e115533581b61e147884.jpg"); 
+        height:300px;
+        width:100%;
+        background-position: center;
+        margin-bottom: 10px;
+    }
+    .one-text{
+        width:500px;
+        margin-top:60px;
+    }
+    .one-content{
+        width:1000px;
+        margin: 0 auto;
+        padding-top: 1px;
+    }
+    #one-one .one-text>div:first-child{
+        font-size: 24px;
+        color:#fff;
+        font-weight: 600;
+        margin-bottom:20px; 
+        
+        /* font-family:MYingHei W7 */
+    }
+    #one-one .one-text>div:nth-child(2){
+        font-size:16px;
+        color:#fff;
+        font-weight: 600;
+        margin-bottom:50px;
+    }
+    #one-one .one-text>div:last-child>a{
+        font-size:14px;
+        color: #fff;
+        font-weight: 600;
+    }
+    #one-two{
+        background-image:url("../www.oneplus.com/www.oneplus.com/images/84063d5fccde396f568fc4e736c621f0.jpg");
+        height:680px;
+        background-position:center; 
+        margin-bottom: 10px;
+    }
+    .two-content{
+        width:1000px;
+        margin:0 auto;
+        height: 100%;
+        position: relative;
+    }
+    .two-text{
+        position: absolute;
+        width:500px;
+        top:50%; 
+        margin-top:-108px;
+       color:#000;
+       
+    }
+    .two-text>p:first-child{
+        font-size: 34px;
+        font-weight: 700;
+
+    }
+    .two-text>p:nth-child(3){
+        font-size:20px;
+        position: absolute;
+        top:44px
+    }
+    .two-text>p:nth-child(5){
+        font-size: 16px;
+        position: absolute;
+        top:90px;
+    }
+    .two-text>a:nth-child(6){
+        display: block;
+        width:162px;
+        height:50px;
+        border:1px solid #000;
+        color:#000;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        margin-top:55px;
+        border-radius: 2px;
+        font-weight: 700;
+        position: relative;
+    }
+    .two-text>a:nth-child(6)>div{
+        position: absolute;
+        top:0px;
+        left: 0px;
+        height: 50px;
+        width:0px;
+        border-radius: 2px;
+        overflow: hidden;
+        text-align: center;
+        line-height: 50px;
+        transition: all 0.2s;
+    }
+    .two-text>a:nth-child(6):hover>div{
+        position: absolute;
+        top:-1px;
+        left: 0px;
+        height: 50px;
+        width:160px;
+        border-radius: 2px;
+        overflow: hidden;
+        text-align: center;
+        line-height: 50px;
+        font-weight: 700;
+        background:#101920;
+        color:#fff; 
+      
+    }
+    .two-text>:last-child{
+        /* text-decoration: none; */
+        color:#000;
+        position: absolute;
+        top:235px;
+        /* font-weight: 700 */
+    }
+    #one-three{
+        background-image: url("../www.oneplus.com/www.oneplus.com/images/5c6699b135331056e4b3eee27a9b8f06.jpg");
+        height: 680px;
+        background-position:center;
+        margin-bottom: 10px;
+    }
+    .three-content{
+        width:1000px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .three-text{
+        width: 500px;
+        /* border:2px solid red; */
+        position: absolute;
+        top:50%;
+        height: 240px;
+        margin-top:-120px;
+    }
+    .three-text>p:first-child{
+        font-size: 34px;
+        color:#fff;
+        font-weight: 700;
+    }
+    .three-text>p:nth-child(3){
+        font-size:20px;
+        color: #fff;
+        position: absolute;
+        top:45px;
+    }
+    .three-text>p:nth-child(5){
+        font-size:16px;
+        color:#fff;
+        position: absolute;
+        top:90px;
+    }
+    .three-text>a:nth-child(6){
+        display: block;
+        width:162px;
+        height: 50px;
+        border:1px solid #fff;
+        color: #fff;
+        text-align: center;
+        line-height:50px;
+        text-decoration: none;
+        position: absolute;
+        top:155px;
+        border-radius: 2px;
+    }
+    .three-text>a:nth-child(6)>div{
+        position: absolute;
+        top:0px;
+        left: 0px;
+        height: 50px;
+        width:0px;
+        border-radius: 2px;
+        overflow: hidden;
+        text-align: center;
+        line-height: 50px;
+        transition: all 0.2s;
+    }
+    .three-text>a:nth-child(6):hover>div{
+        position: absolute;
+        top:-1px;
+        left: 0px;
+        height: 50px;
+        width:160px;
+        border-radius: 2px;
+        overflow: hidden;
+        text-align: center;
+        line-height: 50px;
+        font-weight: 700;
+        background:#fff;
+        color:#101920;
+    }
+    .three-text>a:last-child{
+        color:#fff;
+        position: absolute;
+        top:212px;
+    }
+    .four-content{
+        list-style: none;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .four-content>div:first-child{
+        /* box-sizing: content-box; */
+       height: 500px;
+       width: 49%;
+       margin: 0px 5px;
+       background-image: url("../www.oneplus.com/www.oneplus.com/images/17100a38c0c6fa45972332c6cd2b819e.png");
+        background-position: center;
+        color:#000;
+        text-align: center;
+        cursor: pointer;
+        
+    }
+    .four-content>div:nth-child(2){
+        /* box-sizing: content-box; */
+        height: 500px;
+        width: 49%;
+        margin:0px 5px;
+        background-image:url("../www.oneplus.com/www.oneplus.com/images/1de998f6581a0f64902bb26285d0088e.jpg"); 
+        background-position: center;
+        text-align: center;
+        cursor: pointer;
+    }
+     .four-content>div:nth-child(3){
+        /* box-sizing: content-box; */
+        height: 500px;
+        width: 49%;
+        margin:0px 5px;
+        margin-top:10px;    
+        background-image: url("../www.oneplus.com/www.oneplus.com/images/f88b15a6020b32336310b268e1c75378.jpg");
+        background-position: center;
+        text-align: center;
+        color:#fff;
+        cursor: pointer;
+    }
+    .four-content>div:last-child{
+        height: 500px;
+        width: 49%;
+        margin:0px 5px;
+        margin-top:10px;
+        background-image: url("../www.oneplus.com/www.oneplus.com/images/e467eee7fb7a2e4a53c3130835178463.jpg");
+        background-position: center;
+        text-align: center;
+        cursor: pointer;
+    }
+    #one-four{
+        margin-bottom: 10px;
+    }
+    .four-content p{
+        font-weight: 700;
+        font-size:18px;
+    }
+    .four-content h4{
+        font-weight: 700;
+    }
+    .four-text{
+        margin-top:33px; 
+    }
+    #one-five{
+        background-image: url("../www.oneplus.com/www.oneplus.com/images/7a9e881d134590fb24bfa3d1c64254a5.jpg");
+        height: 576px;
+        background-size:cover;
+        background-position:center -140px;
+        margin-top:10px;   
+    }
+    .five-content{
+        width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+    }
+    .five-text{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        margin-top:-70.5px;
+        margin-left:-216px;
+    }
+    .five-text>div>h3{
+        color:#fff;
+        font-weight: 900;
+        font-size:48px;
+        text-align: center;
+    }
+    .five-text>div>a{
+        display: block;
+        width:134px;
+        height:44px;
+        border:2px solid #fff;
+        text-align: center;
+        color:#fff;
+        /* font-family: Microsoft JhengHei; */
+        font-weight: 700;
+        font-size:14px;
+        line-height: 44px;
+        text-decoration: none;
+        margin:0 auto;
+        margin-top:40px;
+        border-radius: 2px;
+        position: relative;
+    }
+    .five-text>div>a>div{
+        position: absolute;
+        height: 44px;
+        width: 0px;
+        text-align: center;
+        line-height: 44px;
+        border-radius: 2px;
+        top:-1px;
+        left: 0px;
+        overflow: hidden;
+        transition: all 0.15s;
+    }
+    .five-text>div>a:hover>div{
+        height:42px;
+        width:132px;
+        background-color:#fff;
+        color:#182229;
+    }
+    #one-six{
+      margin-top:10px;
+      width:100%;
+      background: rgb(246,246,246)
+    }
+    .six-content{
+        width:80%;
+        /* border:1px solid red */
+        display: flex;
+        margin:0 auto;
+        margin-top:91px;
+        padding-bottom: 91px;
+        /* justify-content:space-between;   */
+    }
+    .six-content>div:not(:first-child){
+        margin-left:60px;
+    }
+    .six-content h4{
+        font-size:16px;
+        margin-top:20px;
+    }
+    .six-content p{
+        font-size:18px;
+        margin-top:5px;
+        font-weight: 900;
+    }
+    .six-content>div>a{
+        font-size:16px;
+        color:#0099cc;
+        margin-top:20px;
+        text-decoration: none;
+    }
+    .six-content img{
+        cursor: pointer;
+    }
+    .seven-content{
+        width:80%;
+        display: flex;
+        margin:0 auto;
+        justify-content:space-around;
+        margin-top:35px;
+        margin-bottom: 35px;
+    }
+    #one-seven{
+        height: 196.4px;
+    }
+    .seven-content>a>div{
+        width:80px;
+        height:80px;
+    }
+    .seven-content>a{
+        display: block;
+        text-decoration: none;
+        color:#000;
+    }
+    .seven-content>a:first-child>div{
+        background-image:url("../www.oneplus.com/www.oneplus.com/images/serviceicons-sd81bbaa639.png"); 
+        margin:0 auto;
+        background-position:0px 200px; 
+    }
+    .seven-content>a:nth-child(2)>div{
+       background-image:url("../www.oneplus.com/www.oneplus.com/images/serviceicons-sd81bbaa639.png"); 
+        margin:0 auto;
+        background-position: 0px 0px;
+    }
+    .seven-content>a:nth-child(3)>div{
+        background-image: url("../www.oneplus.com/www.oneplus.com/images/serviceicons-sd81bbaa639.png");
+        margin:0 auto;
+        background-position: 0px -240px;
+    }
+    .seven-content>a:nth-child(4)>div{
+        background-image: url("../www.oneplus.com/www.oneplus.com/images/serviceicons-sd81bbaa639.png");
+        margin:0 auto;
+        background-position: 0px 80px;
+    }
+    #one-seven>.seven-content>a{
+        text-decoration: none;
+    }
+    #one-seven>.seven-content>a>span{
+        display: block;
+        margin-top:15px;
+        /* font-weight: 900; */
+        font-family: 黑体;
+        font-size: 15px;
+        color:#565b62;
+    }
+   
+}
